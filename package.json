@@ -1,0 +1,16 @@
+{
+  "name": "react-tagsinput-special",
+  "version": "1.1.0",
+  "description": "Original package is here. https://www.npmjs.com/package/react-tagsinput",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mehmet demiray",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "react-tagsinput",
+    "input-tags"
+  ]
+}
