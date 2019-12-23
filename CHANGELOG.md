@@ -1,4 +1,4 @@
-### 1.2.0 (2019-12-23)
+### 1.2.1 (2019-12-23)
 
 * componentWillReceiveProps changed.
 
