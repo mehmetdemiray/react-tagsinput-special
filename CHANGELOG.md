@@ -1,3 +1,9 @@
+### 1.2.0 (2019-12-23)
+
+* componentWillReceiveProps changed.
+
+### --SPECIAL ###
+
 ### 3.18.0 (2017-09-16)
 
 * Match on key as well as keyCode.
