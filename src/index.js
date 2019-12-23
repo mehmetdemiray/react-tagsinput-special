@@ -412,7 +412,7 @@ class TagsInput extends React.Component {
     })
   }
 
-  componentWillReceiveProps (nextProps) {
+  getDerivedStateFromProps (nextProps) {
     /* istanbul ignore next */
     if (this.hasControlledInput()) {
       return

@@ -535,7 +535,23 @@
           tag: this.inputValue(this.props)
         });
       }
-    },{
+    }, {
+      key: 'getDerivedStateFromProps',
+      value: function getDerivedStateFromProps(nextProps) {
+        /* istanbul ignore next */
+        if (this.hasControlledInput()) {
+          return;
+        }
+
+        if (!this.inputValue(nextProps)) {
+          return;
+        }
+
+        this.setState({
+          tag: this.inputValue(nextProps)
+        });
+      }
+    }, {
       key: 'render',
       value: function render() {
         var _this4 = this;
