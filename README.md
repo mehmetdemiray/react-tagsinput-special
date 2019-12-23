@@ -11,4 +11,4 @@ componentWillReceiveProps changed with getDerivedStateFromProps with this packag
 
 ```sh
 $ npm install react-tagsinput-special --save
-```"# react-tagsinput-special" 
+``` 
